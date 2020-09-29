@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    box-sizing: border-box;
+    color: #393d40;
+    -webkit-font-smoothing: antialiased;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+.app {
+  padding: 15px 10px;
+  display: grid;
+  grid-template-columns: 290px 3fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+    'pesquisa routes routes routes'
+    'pesquisa conteudo conteudo conteudo';
+  height: 100vh;
+}
+
+.pesquisa {
+  grid-area: pesquisa;
+}
+
+.routes {
+  grid-area: routes;
+}
+
+.conteudo {
+  grid-area: conteudo;
+}
+
+/* @media (max-width:900px) {
+    .app {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: var(--header-height) 1fr var(--advertise-height) var(--footer-height);
+        grid-template-areas: "header" "home" "advertise" "footer";
+        background-color: transparent;
+} */

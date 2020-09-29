@@ -1,0 +1,61 @@
+
+.routes {
+    padding: 5px;
+    padding-left: 15px;
+}
+
+.cabecalho-detalhes {
+    padding-bottom: 2px;
+}
+
+.cabecalho-detalhes h2 {
+    font-family: 'Hind', sans-serif;
+    font-size: 23px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.detalhes {
+    padding-top: 5px;
+}
+
+.detalhes img {
+    margin-bottom: 10px;
+}
+
+.detalhes strong {
+    font-size: 15px;
+}
+.detalhes span {
+    font-size: 15px;
+    margin-bottom: 12px;
+    padding-left: 10px;
+}
+
+.detalhes button {
+    padding: 0 20px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid #389cf2;
+    background-color: #fff;
+    color: #389cf2;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: 0;
+    margin-top: 10px;
+}
+
+.detalhes a {
+    text-decoration: none;
+}
+
+.detalhes button:hover, .detalhes button:focus {
+    background-color: #389cf2;
+    color: #fff;
+    transition: all .3s;
+}

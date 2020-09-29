@@ -1,0 +1,48 @@
+.routes {
+    padding: 5px;
+    padding-left: 15px;
+}
+
+.routes h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 20px
+}
+
+.conteudo {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgba(211, 211, 211, 0.4);
+    width: 100%;
+}
+
+.conteudo h1 {
+    font-size: 20px;
+    font-family: 'Hind', sans-serif;
+}
+
+.conteudo p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.conteudo button {
+    padding: 0 20px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid #389cf2;
+    background-color: #fff;
+    color: #389cf2;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: 0;
+}
+
+.conteudo button:hover, .conteudo button:focus {
+    background-color: #389cf2;
+    color: #fff;
+    transition: all .3s;
+}

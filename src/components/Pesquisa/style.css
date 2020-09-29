@@ -1,0 +1,129 @@
+.pesquisa {
+    padding: 5px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(211, 211, 211, 0.4);
+}
+
+.cabecalho-pesquisa h2 {
+    font-family: 'Hind', sans-serif;
+    font-size: 23px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.cabecalho-pesquisa p {
+    font-size: 13px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.btn-selecao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.btn-selecao button {
+    width: calc(50% - 7px);
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #777;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: 0;
+    font-size: 12px;
+}
+
+.btn-selecao button:focus, .btn-selecao button:hover {
+    border: 1px solid #389cf2;
+    transition: all .3s;
+    color: #389cf2;
+}
+
+.input-pesquisa input {
+    width: 92%;
+    height: 40px;
+    padding: 0 10px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    outline: 0;
+    font-size: 14px;
+}
+
+.input-pesquisa input:focus, .input-pesquisa input:hover, .input-pesquisa input:active {
+    border: 1px solid #389cf2;
+    transition: all .3s;
+}
+
+.btn-submit {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #389cf2;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: 0;
+}
+
+.routes {
+    padding: 5px;
+    padding-left: 15px;
+}
+
+.routes h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 20px
+}
+
+.conteudo {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgba(211, 211, 211, 0.4);
+    width: 100%;
+}
+
+.conteudo h1 {
+    font-size: 20px;
+    font-family: 'Hind', sans-serif;
+}
+
+.conteudo p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.conteudo button {
+    padding: 0 20px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid #389cf2;
+    background-color: #fff;
+    color: #389cf2;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: 0;
+}
+
+.conteudo button:hover, .conteudo button:focus {
+    background-color: #389cf2;
+    color: #fff;
+    transition: all .3s;
+}
